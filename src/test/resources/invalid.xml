@@ -1,0 +1,13 @@
+<!DOCTYPE bookstore [
+        <!ELEMENT bookstore (book+)>
+        <!ELEMENT book (title, author, year)>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+        ]>
+<bookstore>
+    <book>
+        <title>Effective Java</title>
+        <!-- Missing author and year elements -->
+    </book>
+</bookstore>
